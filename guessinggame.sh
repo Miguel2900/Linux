@@ -1,4 +1,4 @@
-nof=$(ls | wc -l)
+y nof=$(ls | wc -l)
 
 function game
 {
@@ -23,5 +23,5 @@ do
 done
 }
 
-echo "Welcome to this funny game, Do you know how many files are in this directory?"
+echo "Let´s play a game, you need to guess how many files are in the directory"
 game
