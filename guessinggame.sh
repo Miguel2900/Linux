@@ -8,11 +8,11 @@ do
     read var
     if [[ $var -gt $nof ]]
     then
-        echo "Incorrect"
+        echo "It´s a smaller number"
     else
         if [[ $var  -lt $nof ]]
         then
-            echo "No, that is incorrect"
+            echo "You need a bigger number"
         else
             if [[ $var -eq $nof ]]
             then
